@@ -1,0 +1,17 @@
+export const formulas: Record<string, { math: string; detail: string }> = {
+  tokenize: { math: 'text → lowercase word / punctuation tokens', detail: 'Presentation of the transparent tokenizer.' },
+  embedding_lookup: { math: 'x₀ = E[tokenId]', detail: 'A learned row in the embedding table.' },
+  q_projection: { math: 'Q = xWq + bq', detail: 'Learned query projection.' },
+  k_projection: { math: 'K = xWk + bk', detail: 'Learned key projection.' },
+  v_projection: { math: 'V = xWv + bv', detail: 'Learned value projection.' },
+  feature_map_q: { math: 'φ(Q) = ELU(Q) + 1 + ε', detail: 'Positive feature map for a kernelized read.' },
+  feature_map_k: { math: 'φ(K) = ELU(K) + 1 + ε', detail: 'Positive feature map for a kernelized write.' },
+  state_read_numerator: { math: 'N = φ(Q)ᵀSₜ₋₁', detail: 'The query reads the memory accumulated from earlier tokens.' },
+  state_read_denominator: { math: 'D = φ(Q)ᵀZₜ₋₁ + ε', detail: 'Normalization read from the matching running vector.' },
+  context_divide: { math: 'context = N / D', detail: 'Each numerator component uses the same scalar normalizer.' },
+  outer_product: { math: 'C = φ(K) ⊗ V', detail: 'One token’s matrix contribution.' },
+  state_s_update: { math: 'Sₜ = Sₜ₋₁ + Cₜ', detail: 'The fixed-size causal memory update.' },
+  state_z_update: { math: 'Zₜ = Zₜ₋₁ + φ(Kₜ)', detail: 'The fixed-size normalizer update.' },
+  prediction: { math: 'p = softmax(hWhead)', detail: 'Learned antecedent-token prediction head.' },
+  reconstructed_influence: { math: 'αⱼ ∝ φ(Qₜ) · φ(Kⱼ)', detail: 'Reconstructed for explanation; efficient inference uses S and Z only.' },
+};

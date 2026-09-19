@@ -1,0 +1,40 @@
+{
+  "version": "full-sentence-pointer-1",
+  "dModel": 32,
+  "dFeature": 16,
+  "maxLength": 48,
+  "epsilon": 1e-06,
+  "layers": 2,
+  "featureMap": "ELU(x) + 1 + eps",
+  "tokenizer": "lowercase-word-punctuation-v1",
+  "entityTokenIds": [
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    36,
+    38,
+    41,
+    42,
+    37,
+    39,
+    40
+  ],
+  "weightsChecksum": "3cb500b535ab",
+  "training": {
+    "status": "trained",
+    "device": "cpu",
+    "seed": 314159,
+    "task": "synthetic pronoun antecedent position prediction with a forward and reverse encoder"
+  }
+}

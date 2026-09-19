@@ -1,0 +1,40 @@
+{
+  "version": "pointer-coref-1",
+  "dModel": 32,
+  "dFeature": 16,
+  "maxLength": 48,
+  "epsilon": 1e-06,
+  "layers": 2,
+  "featureMap": "ELU(x) + 1 + eps",
+  "tokenizer": "lowercase-word-punctuation-v1",
+  "entityTokenIds": [
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    35,
+    37,
+    40,
+    41,
+    36,
+    38,
+    39
+  ],
+  "weightsChecksum": "1e22606c62b7",
+  "training": {
+    "status": "trained",
+    "device": "cpu",
+    "seed": 314159,
+    "task": "synthetic pronoun antecedent position prediction"
+  }
+}

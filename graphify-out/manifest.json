@@ -1,0 +1,122 @@
+{
+  "model/export_demo.py": {
+    "mtime": 1789744918.5733914,
+    "ast_hash": "ca4a5bfda8e1525818dcc094da5fc3bd",
+    "semantic_hash": "ca4a5bfda8e1525818dcc094da5fc3bd"
+  },
+  "model/tokenizer.py": {
+    "mtime": 1789745953.8363385,
+    "ast_hash": "ba09e361629b8792f81fc3754c920c84",
+    "semantic_hash": "ba09e361629b8792f81fc3754c920c84"
+  },
+  "model/train.py": {
+    "mtime": 1789745953.8363385,
+    "ast_hash": "9fb69cc04736ff757ab2e135622bf343",
+    "semantic_hash": "9fb69cc04736ff757ab2e135622bf343"
+  },
+  "package.json": {
+    "mtime": 1789744927.685575,
+    "ast_hash": "7806ecf2182afea3bf734746ee74c278",
+    "semantic_hash": "7806ecf2182afea3bf734746ee74c278"
+  },
+  "public/model/examples.json": {
+    "mtime": 1789745965.7644646,
+    "ast_hash": "ff4201cf2f481e92bdb77750cf372467",
+    "semantic_hash": "ff4201cf2f481e92bdb77750cf372467"
+  },
+  "public/model/metrics.json": {
+    "mtime": 1789745965.7644181,
+    "ast_hash": "61a12babdba44aae09007d365b31c687",
+    "semantic_hash": "61a12babdba44aae09007d365b31c687"
+  },
+  "public/model/model-config.json": {
+    "mtime": 1789745965.7597063,
+    "ast_hash": "90c86ee4ef3c0ab7e309eb529e1924e2",
+    "semantic_hash": "90c86ee4ef3c0ab7e309eb529e1924e2"
+  },
+  "public/model/vocab.json": {
+    "mtime": 1789745965.7598138,
+    "ast_hash": "980645a8f045f6e7d7a33e4e54675ffb",
+    "semantic_hash": "980645a8f045f6e7d7a33e4e54675ffb"
+  },
+  "public/model/weights.json": {
+    "mtime": 1789745965.764245,
+    "ast_hash": "abbc7e13394a498c8967252fa9b7410f",
+    "semantic_hash": "abbc7e13394a498c8967252fa9b7410f"
+  },
+  "src/App.tsx": {
+    "mtime": 1789745921.4837775,
+    "ast_hash": "a5c6e047b838fa4b7ad62616283b66dd",
+    "semantic_hash": "a5c6e047b838fa4b7ad62616283b66dd"
+  },
+  "src/components/Comparison.tsx": {
+    "mtime": 1789745688.235701,
+    "ast_hash": "245a67b6b1ece15c6550443998ce40b4",
+    "semantic_hash": "245a67b6b1ece15c6550443998ce40b4"
+  },
+  "src/formulas.ts": {
+    "mtime": 1789745688.235701,
+    "ast_hash": "b12d430ac29f12101fa8910bccdbb0c1",
+    "semantic_hash": "b12d430ac29f12101fa8910bccdbb0c1"
+  },
+  "src/main.tsx": {
+    "mtime": 1789745929.0429087,
+    "ast_hash": "671f32259c0c69c1712ef9acf784309b",
+    "semantic_hash": "671f32259c0c69c1712ef9acf784309b"
+  },
+  "src/model/inference.ts": {
+    "mtime": 1789745898.5673795,
+    "ast_hash": "49c3fe093e583019190bde54bb256d60",
+    "semantic_hash": "49c3fe093e583019190bde54bb256d60"
+  },
+  "src/model/loadModel.ts": {
+    "mtime": 1789744508.4683938,
+    "ast_hash": "c641fcee32f3cd1a73d7043b105658e6",
+    "semantic_hash": "c641fcee32f3cd1a73d7043b105658e6"
+  },
+  "src/model/tensor.ts": {
+    "mtime": 1789744508.393392,
+    "ast_hash": "efca098210709b987ce60d7ea1bfee60",
+    "semantic_hash": "efca098210709b987ce60d7ea1bfee60"
+  },
+  "src/model/tokenizer.ts": {
+    "mtime": 1789744508.3163903,
+    "ast_hash": "dd2e106fa30a319169febd5c237e946b",
+    "semantic_hash": "dd2e106fa30a319169febd5c237e946b"
+  },
+  "src/model/types.ts": {
+    "mtime": 1789745534.1729677,
+    "ast_hash": "68fcd0d1a2052775077a80df4cf0fe52",
+    "semantic_hash": "68fcd0d1a2052775077a80df4cf0fe52"
+  },
+  "src/tests/inference.test.ts": {
+    "mtime": 1789745938.9960814,
+    "ast_hash": "6437eb0f1156738c6ee0a1ed586ce1dc",
+    "semantic_hash": "6437eb0f1156738c6ee0a1ed586ce1dc"
+  },
+  "src/tests/tensor.test.ts": {
+    "mtime": 1789745953.8363385,
+    "ast_hash": "c3f7b2549d95b8db0a43d8933a79ee32",
+    "semantic_hash": "c3f7b2549d95b8db0a43d8933a79ee32"
+  },
+  "src/tests/trained-model.test.ts": {
+    "mtime": 1789745464.394715,
+    "ast_hash": "4412037a62ff18d51f9a53055a857f09",
+    "semantic_hash": "4412037a62ff18d51f9a53055a857f09"
+  },
+  "src/vite-env.d.ts": {
+    "mtime": 1789744954.216107,
+    "ast_hash": "0352474ba2918efe13895edbc3780d94",
+    "semantic_hash": "0352474ba2918efe13895edbc3780d94"
+  },
+  "tsconfig.json": {
+    "mtime": 1789744508.0773845,
+    "ast_hash": "a2bcb050eb23a2d65638b210d1d9c1f8",
+    "semantic_hash": "a2bcb050eb23a2d65638b210d1d9c1f8"
+  },
+  "vite.config.ts": {
+    "mtime": 1789744508.1563864,
+    "ast_hash": "7498d1975869f5de8b2579b686b8c46c",
+    "semantic_hash": "7498d1975869f5de8b2579b686b8c46c"
+  }
+}

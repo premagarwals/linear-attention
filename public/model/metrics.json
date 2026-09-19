@@ -1,0 +1,12 @@
+{
+  "status": "trained",
+  "trainExamples": 18000,
+  "validationExamples": 2000,
+  "testExamples": 2000,
+  "templateFamilies": 17,
+  "trainAccuracy": 1.0,
+  "validationAccuracy": 1.0,
+  "testAccuracy": 1.0,
+  "task": "full-sentence antecedent position pointer at pronoun positions",
+  "scope": "Tiny model trained only on controlled short English templates. The full-sentence resolver can consider entity tokens on either side of a pronoun; the live trace remains the forward causal pass."
+}

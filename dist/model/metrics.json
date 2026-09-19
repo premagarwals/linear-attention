@@ -1,0 +1,8 @@
+{
+  "status": "trained",
+  "trainAccuracy": 1.0,
+  "validationAccuracy": 1.0,
+  "testAccuracy": 1.0,
+  "task": "antecedent position pointer at pronoun positions",
+  "scope": "Tiny model trained only on controlled short English templates; candidate predictions are restricted to earlier entity tokens."
+}

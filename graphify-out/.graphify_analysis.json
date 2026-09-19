@@ -1,0 +1,264 @@
+{
+  "communities": {
+    "0": [
+      "src_app",
+      "src_app_app",
+      "src_app_examples",
+      "src_app_fmt",
+      "src_app_matrix",
+      "src_app_vector",
+      "src_components_comparison",
+      "src_components_comparison_comparison",
+      "src_formulas",
+      "src_formulas_formulas",
+      "src_main",
+      "src_model_loadmodel",
+      "src_model_loadmodel_loadmodel",
+      "src_model_types",
+      "src_model_types_artifact",
+      "src_model_types_eventkind",
+      "src_model_types_layerweights",
+      "src_model_types_model",
+      "src_model_types_source",
+      "src_model_types_tokentrace",
+      "src_model_types_trace",
+      "src_model_types_traceevent",
+      "src_tests_inference_test",
+      "src_tests_inference_test_model",
+      "src_tests_trained_model_test",
+      "src_tests_trained_model_test_model"
+    ],
+    "1": [
+      "ref_dom",
+      "ref_dom_iterable",
+      "ref_es2022",
+      "ref_src",
+      "tsconfig",
+      "tsconfig_compileroptions",
+      "tsconfig_compileroptions_allowjs",
+      "tsconfig_compileroptions_allowsyntheticdefaultimports",
+      "tsconfig_compileroptions_esmoduleinterop",
+      "tsconfig_compileroptions_isolatedmodules",
+      "tsconfig_compileroptions_jsx",
+      "tsconfig_compileroptions_lib",
+      "tsconfig_compileroptions_module",
+      "tsconfig_compileroptions_moduleresolution",
+      "tsconfig_compileroptions_noemit",
+      "tsconfig_compileroptions_resolvejsonmodule",
+      "tsconfig_compileroptions_skiplibcheck",
+      "tsconfig_compileroptions_strict",
+      "tsconfig_compileroptions_target",
+      "tsconfig_compileroptions_usedefineforclassfields",
+      "tsconfig_include"
+    ],
+    "2": [
+      "model_train",
+      "model_train_accuracy",
+      "model_train_batchify",
+      "model_train_dataset",
+      "model_train_example",
+      "model_train_export",
+      "model_train_json_value",
+      "model_train_linearattentionlayer",
+      "model_train_linearattentionlayer_forward",
+      "model_train_linearattentionlayer_init",
+      "model_train_main",
+      "model_train_make_example",
+      "model_train_py_random",
+      "model_train_rationale_1",
+      "model_train_tinycoref",
+      "model_train_tinycoref_forward",
+      "model_train_tinycoref_init",
+      "tensor"
+    ],
+    "3": [
+      "package",
+      "package_devdependencies",
+      "package_devdependencies_types_react",
+      "package_devdependencies_types_react_dom",
+      "package_name",
+      "package_private",
+      "package_scripts",
+      "package_scripts_build",
+      "package_scripts_dev",
+      "package_scripts_test",
+      "package_type",
+      "package_version",
+      "types_react",
+      "types_react_dom"
+    ],
+    "4": [
+      "package_dependencies",
+      "package_dependencies_react",
+      "package_dependencies_react_dom",
+      "package_dependencies_typescript",
+      "package_dependencies_vite",
+      "package_dependencies_vitejs_plugin_react",
+      "package_dependencies_vitest",
+      "react",
+      "react_dom",
+      "typescript",
+      "vite",
+      "vitejs_plugin_react",
+      "vitest"
+    ],
+    "5": [
+      "src_model_inference",
+      "src_model_inference_eventlabels",
+      "src_model_inference_run",
+      "src_model_tensor",
+      "src_model_tensor_add",
+      "src_model_tensor_dot",
+      "src_model_tensor_matvec",
+      "src_model_tensor_outer",
+      "src_model_tensor_phi",
+      "src_model_tensor_softmax",
+      "src_model_tokenizer",
+      "src_model_tokenizer_tokenize",
+      "src_tests_tensor_test"
+    ],
+    "6": [
+      "model_export_demo",
+      "model_export_demo_main",
+      "model_export_demo_matrix",
+      "model_export_demo_py_random",
+      "model_export_demo_rationale_1"
+    ],
+    "7": [
+      "model_tokenizer",
+      "model_tokenizer_rationale_1",
+      "model_tokenizer_tokenize"
+    ],
+    "8": [
+      "src_vite_env_d"
+    ],
+    "9": [
+      "vite_config"
+    ]
+  },
+  "cohesion": {
+    "0": 0.12,
+    "1": 0.09523809523809523,
+    "2": 0.2549019607843137,
+    "3": 0.14285714285714285,
+    "4": 0.15384615384615385,
+    "5": 0.3974358974358974,
+    "6": 0.7,
+    "7": 0.6666666666666666,
+    "8": 1.0,
+    "9": 1.0
+  },
+  "gods": [
+    {
+      "id": "tsconfig_compileroptions",
+      "label": "compilerOptions",
+      "degree": 15
+    },
+    {
+      "id": "src_model_inference_run",
+      "label": "run()",
+      "degree": 12
+    },
+    {
+      "id": "model_train_main",
+      "label": "main()",
+      "degree": 7
+    },
+    {
+      "id": "model_train_example",
+      "label": "Example",
+      "degree": 6
+    },
+    {
+      "id": "model_train_tinycoref",
+      "label": "TinyCoref",
+      "degree": 6
+    },
+    {
+      "id": "src_model_types_model",
+      "label": "Model",
+      "degree": 6
+    },
+    {
+      "id": "model_train_dataset",
+      "label": "dataset()",
+      "degree": 5
+    },
+    {
+      "id": "model_train_batchify",
+      "label": "batchify()",
+      "degree": 5
+    },
+    {
+      "id": "model_train_accuracy",
+      "label": "accuracy()",
+      "degree": 5
+    },
+    {
+      "id": "model_train_make_example",
+      "label": "make_example()",
+      "degree": 4
+    }
+  ],
+  "surprises": [
+    {
+      "source": "App()",
+      "target": "run()",
+      "source_files": [
+        "src/App.tsx",
+        "src/model/inference.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "App()",
+      "target": "loadModel()",
+      "source_files": [
+        "src/App.tsx",
+        "src/model/loadModel.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "cross-file semantic connection"
+    },
+    {
+      "source": "run()",
+      "target": "add()",
+      "source_files": [
+        "src/model/inference.ts",
+        "src/model/tensor.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "cross-file semantic connection"
+    },
+    {
+      "source": "run()",
+      "target": "dot()",
+      "source_files": [
+        "src/model/inference.ts",
+        "src/model/tensor.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "cross-file semantic connection"
+    },
+    {
+      "source": "run()",
+      "target": "matVec()",
+      "source_files": [
+        "src/model/inference.ts",
+        "src/model/tensor.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "cross-file semantic connection"
+    }
+  ],
+  "tokens": {
+    "input": 0,
+    "output": 0
+  }
+}
